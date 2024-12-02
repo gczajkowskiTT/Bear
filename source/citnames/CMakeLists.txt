@@ -13,6 +13,7 @@ target_link_libraries(citnames_json_a PUBLIC
         sys_a
         fmt::fmt
         spdlog::spdlog
+        stdc++fs
         nlohmann_json::nlohmann_json)
 target_compile_options(citnames_json_a PRIVATE -fexceptions)
 
@@ -44,7 +45,8 @@ target_link_libraries(citnames_a PUBLIC
         sys_a
         exec_a
         fmt::fmt
-        spdlog::spdlog)
+        spdlog::spdlog
+        stdc++fs)
 
 include(GNUInstallDirs)
 

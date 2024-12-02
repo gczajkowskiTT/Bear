@@ -12,4 +12,5 @@ target_link_libraries(main_a PUBLIC
         result_a
         flags_a
         fmt::fmt
-        spdlog::spdlog)
+        spdlog::spdlog
+        stdc++fs)
